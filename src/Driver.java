@@ -63,11 +63,11 @@ public class Driver {
 				System.out.println("Enter file to be output: ");
 				file = scan.next();
 
-				while (masterKey.length() < 16) {
-					System.out.println("Enter Master Key: ");
+				while (masterKey.length() != 16) {
+					System.out.println("Enter Master Key (16 characters): ");
 					masterKey = scan.next();
 
-					if (masterKey.length() < 16) {
+					if (masterKey.length() != 16) {
 						System.out
 								.println("Invalid length. Master Key must be 16+ Characters.");
 					}
@@ -82,11 +82,11 @@ public class Driver {
 				System.out.println("Enter file to be loaded: ");
 				file = scan.next();
 
-				while (masterKey.length() < 16) {
-					System.out.println("Enter Master Key: ");
+				while (masterKey.length() != 16) {
+					System.out.println("Enter Master Key (16 characters): ");
 					masterKey = scan.next();
 
-					if (masterKey.length() < 16) {
+					if (masterKey.length() != 16) {
 						System.out
 								.println("Invalid length. Master Key must be 16+ Characters.");
 					}

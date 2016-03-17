@@ -104,7 +104,7 @@ public class PasswordDatabase {
 
 			writer.close();
 		} catch (IOException e) {
-			System.out.println("Error in writing results to passwords.txt.");
+			System.out.println("Error in writing results to " + path);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -125,7 +125,7 @@ public class PasswordDatabase {
 
 			}
 		} catch (IOException e) {
-			System.out.println("Error in writing results to passwords.txt.");
+			System.out.println("Invalid path " + path);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
