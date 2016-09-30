@@ -5,7 +5,9 @@ Program that generates a hard to crack, easy to remember password given a websit
 Users can generate:
 - XKCD Algorithm: A hard to brute-force crack password based on an [xkcd](https://xkcd.com/936/) comic. Selects 4 words at random and appends them together to form the password.
 - Random Password Generator: Generates a password of user specified length from random, yet valid password characters.
-```abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+=[{}]|':?<>.,```
+```
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()_-+=[{}]|':?<>.,
+```
 
 ## Features
 - Website/Password pairs can be exported to/loaded from a user specified file.
